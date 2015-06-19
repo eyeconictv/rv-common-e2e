@@ -1,5 +1,6 @@
 'use strict';
-var assert = require('assert');
+var chai = require('chai');
+var assert = chai.assert;
 var rvCommonE2E = require('../index.js');
 
 describe('rv-common-e2e', function () {
