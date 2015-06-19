@@ -11,7 +11,8 @@
     "url": ""
   },
   "files": [
-    "lib"
+    "lib",
+    "index.js"
   ],
   "keywords": [
     "e2e",
