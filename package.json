@@ -30,7 +30,9 @@
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "jshint-stylish": "^1.0.0",
-    "gulp-coveralls": "^0.1.0"
+    "gulp-coveralls": "^0.1.0",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1"
   },
   "scripts": {
     "test": "gulp"
