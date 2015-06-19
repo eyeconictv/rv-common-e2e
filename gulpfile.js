@@ -56,4 +56,4 @@ gulp.task('coveralls', ['test'], function () {
     .pipe(coveralls());
 });
 
-gulp.task('default', ['static', 'test', 'coveralls']);
+gulp.task('default', ['static', 'test']);
