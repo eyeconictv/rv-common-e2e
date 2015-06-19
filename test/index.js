@@ -1,6 +1,6 @@
 'use strict';
 var assert = require('assert');
-var rvCommonE2E = require('../lib/index.js');
+var rvCommonE2E = require('../index.js');
 
 describe('rv-common-e2e', function () {
   it('should have expect defined!', function () {
