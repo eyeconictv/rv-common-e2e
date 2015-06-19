@@ -1,0 +1,37 @@
+{
+  "name": "rv-common-e2e",
+  "version": "0.0.0",
+  "description": "A node module containing all the common code for e2e",
+  "homepage": "https://github.com/Rise-Vision/rv-common-e2e",
+  "repository": "Rise-Vision/rv-common-e2e",
+  "author": {
+    "name": "rodrigopavezi",
+    "email": "rodrigopavezi@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "e2e",
+    "CH",
+    "protractor",
+    "angularjs",
+    "Google Authentication"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^0.8.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "jshint-stylish": "^1.0.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "private": true
+}
