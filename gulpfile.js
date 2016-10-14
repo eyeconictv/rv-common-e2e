@@ -26,7 +26,7 @@ gulp.task('static', function () {
     .on('error', handleErr);
 });
 
-gulp.task('pre-test', function () {
+gulp.task('pre-test', ['static'], function () {
   return gulp.src('lib/**/*.js')
     .pipe(istanbul({includeUntested: true}))
     .pipe(istanbul.hookRequire());
@@ -56,4 +56,4 @@ gulp.task('coveralls', ['test'], function () {
     .pipe(coveralls());
 });
 
-gulp.task('default', ['static', 'test']);
+gulp.task('default', ['test']);
