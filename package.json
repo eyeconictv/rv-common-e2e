@@ -1,6 +1,6 @@
 {
   "name": "rv-common-e2e",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A node module containing all the common code for e2e",
   "main": "index.js",
   "homepage": "https://github.com/Rise-Vision/rv-common-e2e",
