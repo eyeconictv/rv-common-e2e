@@ -3,8 +3,8 @@
   "version": "0.5.2",
   "description": "A node module containing all the common code for e2e",
   "main": "index.js",
-  "homepage": "https://github.com/Rise-Vision/rv-common-e2e",
-  "repository": "Rise-Vision/rv-common-e2e",
+  "homepage": "https://github.com/porcupine-plan/rv-common-e2e",
+  "repository": "porcupine-plan/rv-common-e2e",
   "author": {
     "name": "rodrigopavezi",
     "email": "rodrigopavezi@gmail.com",
